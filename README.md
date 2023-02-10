@@ -1,6 +1,6 @@
 # playwright-python
 
-### Instalation:
+### Installation:
 1. Install the pytest plugin:
 ```
 pip install pytest-playwright 
