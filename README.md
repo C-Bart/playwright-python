@@ -9,3 +9,9 @@ pip install pytest-playwright
 ```
 playwright install
 ```
+
+
+### Run:
+```
+pytest --browser chromium --headed --slowmo 2000
+```
