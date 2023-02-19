@@ -1,3 +1,7 @@
+import pytest
+
+
+@pytest.mark.skip(reason="not ready")
 def test_facebook(page):
     page.goto("https://www.facebook.com/register")
 
