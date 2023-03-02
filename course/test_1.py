@@ -5,6 +5,8 @@ from playwright.sync_api import sync_playwright
 
 with sync_playwright() as p:
     browser = p.firefox.launch(headless=False, slow_mo=500)
+    # context = browser.new_context(storage_state="json.file")
+    # page = context.new_page()
     page = browser.new_page()
     page.goto("http://playwright.dev")
     print(page.title())
